@@ -10,8 +10,9 @@ description: Scraping UIUC data from the web using BeautifulSoup (who comes up w
 One of the benefits of being a student at a public university is that university-related
 data is publically available such as [how much people are making](http://salaryguide.dailyillini.com/#/).
 As one of the largest public institution in the US, I thought it would be interesting to
-examine the social network of the people at UIUC. In this series of posts, I will walk you 
-through the process of how I went about creating a visualization of the UIUC network.
+examine the affiliation network of the employees at UIUC. In this series of posts, I will 
+walk you  through the process of how I went about creating a visualization of the UIUC 
+network.
 
 # 1. Obtaining the data
 

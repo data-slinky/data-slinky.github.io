@@ -122,4 +122,7 @@ the data. There are two parts which we should discuss in detail.
 The variable _circle_ will draw our node which we want to be in two different colors (one
 for department and one for people) as well as different size. Next, we want to highlight 
 the edges of the node when we mouse over it. To do so, we have a function which returns 
-the color of the edge based on whether it is connected to another node. The rest of the code is the standard settings for how the force layout to be drawn.
+the color of the edge based on whether it is connected to another node. The rest of the 
+code is the standard settings for how the force layout to be drawn.
+
+Check out the visualization [here](https://jknguye2.github.io/UIUC_network/).

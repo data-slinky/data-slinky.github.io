@@ -5,6 +5,8 @@ description: Interactive network visualization of UIUC employees
 img: /img/uiuc_net.png
 ---
 
+Check out the visualization [here](https://jknguye2.github.io/UIUC_network/).
+
 # Motivation
 
 I got the idea for this project when a friend was looking for a thesis advisor. Since he 
