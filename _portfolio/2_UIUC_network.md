@@ -21,3 +21,11 @@ process is given in a series of posts:
 1. [Scraping the data](post_url 2016-07-22-uiuc-network-p1)
 2. [Creating the network](post_url 2016-07-25-uiuc-network-p2)
 3. [Visualizing](post_url 2016-07-27-uiuc-network-p3)
+
+# Things to note
+
+* Size of departmental nodes is determined by out-degree
+* The distance between the department nodes is based on number of affiliated people (e.g.,
+ECE is really close to CSL since lots of people are in both)
+* Some department has employees with no affiliations so they are floating by themselves
+(how lonely)
