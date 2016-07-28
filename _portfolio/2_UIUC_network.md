@@ -15,4 +15,9 @@ useful and fun thing to do.
 
 # How I did it
 
-You can find the code on my git
+You can find the code [here](https://github.com/jknguye2/UIUC_network). A tutorial of the 
+process is given in a series of posts:
+
+1. [Scraping the data](post_url 2016-07-22-uiuc-network-p1)
+2. [Creating the network](post_url 2016-07-25-uiuc-network-p2)
+3. [Visualizing](post_url 2016-07-27-uiuc-network-p3)
