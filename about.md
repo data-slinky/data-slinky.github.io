@@ -3,13 +3,6 @@ layout: page
 title: About
 permalink: /about/
 ---
-<span class="contacticon center">
-<img src="/img/prof_pic.jpg" width="250"/>
-</span>
-<div class="caption">
-&uarr; An unhappy graduate student at 2am.
-</div>
-<br>
 
 I'm a PhD student at [UIUC](http://illinois.edu/), a [data scientist](http://i.giphy.com/ize2r20ICQONq.gif)
 and a [developer](http://i.giphy.com/vzO0Vc8b2VBLi.gif) (note the order). My interests are 
