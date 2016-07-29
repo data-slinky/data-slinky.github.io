@@ -11,9 +11,9 @@ Check out the visualization [here](https://jknguye2.github.io/UIUC_network/).
 
 I got the idea for this project when a friend was looking for a thesis advisor. Since he 
 was in ECE, he had to find an advisor within the department or a faculty affiliated. There 
-isn't a great way to find who is affiliated with who besides going through the department
+isn't a great way to find who is affiliated with who besides going to the department
 website and looking at people's bio so I thought making a network visualization would be 
-useful and fun thing to do.
+useful (and fun) thing to do.
 
 # How I did it
 
@@ -29,5 +29,5 @@ process is given in a series of posts:
 * Size of departmental nodes is determined by out-degree
 * The distance between the department nodes is based on number of affiliated people (e.g.,
 ECE is really close to CSL since lots of people are in both)
-* Some department has employees with no affiliations so they are floating by themselves
-(how lonely)
+* Some departments have employees with no affiliations so they are floating by themselves 
+endlessly in space (how lonely)

@@ -4,14 +4,14 @@ title: Project
 permalink: /portfolio/
 ---
 
-# Projects are from school, work, or weekend fun.
+Projects are from school, work, or weekend fun.
 
 {% for project in site.portfolio %}
 
 {% if project.redirect %}
 <div class="project">
     <div class="thumbnail">
-        <a href="{{ project.redirect }}" target="_blank">
+        <a href="{{ project.redirect }}">
         {% if project.img %}
         <img class="thumbnail" src="{{ project.img }}"/>
         {% else %}
