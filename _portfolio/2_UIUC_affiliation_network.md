@@ -1,7 +1,7 @@
 ---
 layout: post
 title: UIUC Affiliation Network
-description: Interactive network visualization of UIUC employees
+description: Interactive network viz of UIUC employees
 img: /img/uiuc_net.png
 ---
 
