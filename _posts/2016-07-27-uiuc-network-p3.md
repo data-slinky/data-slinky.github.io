@@ -38,10 +38,10 @@ address to see a preview of the html file.
 
 # 3. Visualize
 
-First, make sure you've installed [d3.js](https://d3js.org/). Open up an editor and save 
-it as an html. The first part of the code is pretty straightforward since I'm setting the 
-colors for the network. The important bit is where I set the hover and the mouse 
-pointer-event. We want to be able to see the name of the node when our cursor is over it.
+First, make sure you've installed [d3.js](https://d3js.org/). The first part of the code 
+is pretty straightforward since I'm setting the colors for the network. The important bit 
+is where I set the hover and the mouse pointer-event. We want to be able to see the name 
+of the node when our cursor is over it.
 
 ```html
 .node:hover text {
