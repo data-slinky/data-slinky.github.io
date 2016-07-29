@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 I'm a PhD student at [UIUC](http://illinois.edu/), a [data scientist](http://i.giphy.com/ize2r20ICQONq.gif)
-and a [developer](http://i.giphy.com/vzO0Vc8b2VBLi.gif) (note the order). My interests are 
+and a front-end [developer](http://i.giphy.com/vzO0Vc8b2VBLi.gif) (note the order). My interests are 
 in data mining, analytics and visualization.
 <br><br>
 
