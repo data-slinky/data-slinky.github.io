@@ -14,8 +14,8 @@ With 6,474 nodes and 8,271 edges, the network is pretty large. The algorithm whi
 uses to render a forced layout graph is _O(n log n)_ so it might take your browser a bit
 of time to render. Also, the visualization will not look pretty since everything is too 
 cluttered. Therefore, I suggest taking a sample of the data for this next step. I provided 
-all of the departments associated with the engineering college in the git repo as the sample 
-I'm going to use.
+all of the departments associated with the engineering college in the Github repository 
+as the sample I'm going to use.
 
 # 2.5 Setting up simple server
 
@@ -33,7 +33,7 @@ or the following if you are using python2:
 python -m SimpleHTTPServer 8000
 ```
 
-You should see an ip address wit the port number. Open up a browser and navigate to that 
+You should see an ip address with the port number. Open up a browser and navigate to that 
 address to see a preview of the html file.
 
 # 3. Visualize
