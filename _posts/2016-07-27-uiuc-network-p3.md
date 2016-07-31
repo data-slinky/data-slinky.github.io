@@ -108,14 +108,14 @@ the data. There are two parts which we should discuss in detail.
   node.on('mouseover', function(d) {
   link.style('stroke', function(l) {
     if (d === l.source || d === l.target)
-      return 'red';
+      return '#ff3333';
     else
-      return 'lightgreen';
+      return '#e6e600';
     });
   });
 
   node.on('mouseout', function() {
-    link.style('stroke', 'lightgreen');
+    link.style('stroke', '#e6e600');
   });
 ```
 
