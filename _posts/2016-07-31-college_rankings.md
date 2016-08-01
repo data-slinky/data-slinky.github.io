@@ -16,8 +16,10 @@ A bump chart is a perfect visualization for college rankings. I decided to make 
 before trying any fancy stuff. The end product is this.
 
 <figure>
-{% lightbox /img/Times_Top20.png --data="college_rankings" --title="Source: Times Higher Education
- World University Rankings" --alt="This is our logo" --img-style="max-width:100%;" %}
+ <a href="/img/Times_Top20.png" data-lightbox="appfoundry_image_set" data-title="Source: 
+ Times Higher Education World University Rankings">
+  <img src="/img/Times_Top20.png" alt="Bump chart" style="max-width:100%;"/>
+</a>
  <div class="col caption">Click image to view full-size. </div>
  </figure>
 
@@ -62,7 +64,7 @@ pal1 = c("#c57c3c", "#e392c2", "#a5e7a8", "#bea3ea", "#d7e298", "#81a4e3", "#a6b
 While ggplot has its own default palette which you can change with some pre-defined sets,
 I decided to pick my own since. You can define your own palette by storing a list of hex 
 color codes and then passing them to ggplot. I recommend checking out 
-[IWantHue](tools.medialab.sciences-po.fr/iwanthue/) which uses k-means to generate a set
+[iWantHue](https://github.com/medialab/iwanthue) which uses k-means to generate a set
 of nice colors. Now, lets make the plot.
 
 ```R

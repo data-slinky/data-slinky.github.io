@@ -24,4 +24,4 @@ collections:
     permalink: /project/:path/
 
 
-gems: [jekyll-paginate, lightbox]
+gems: [jekyll-paginate]
