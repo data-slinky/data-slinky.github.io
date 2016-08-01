@@ -5,6 +5,8 @@ date: 2016-07-27
 description: Interactive visualization with d3.js (oh, so pretty!)
 ---
 
+Part of project: [UIUC Affiliation Network](http://data-slinky.com/project/2_UIUC_affiliation_network/)
+
 We can now visualize the network! In case you'd missed it, check out 
 [post 1]({% post_url 2016-07-22-uiuc-network-p1 %}) for obtaining the data and 
 [post 2]({% post_url 2016-07-25-uiuc-network-p2 %}) on setting up the network. Before we 

@@ -1,9 +1,11 @@
 ---
 layout: post
-title: "College Rankings: Bump charts"
+title: "Bump charts"
 date: 2016-07-31
 description: I like bump charts. Here's a simple but nice looking one using R + ggplot.
 ---
+
+Part of project: [College Rankings](http://data-slinky.com/project/3_College_rankings/)
 
 I remain highly engrossed with data visualizations lately so I've been reading about 
 different charts. One of my favorite chart is a sort of line chart where the x and y-axis 

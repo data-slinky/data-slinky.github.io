@@ -5,6 +5,8 @@ date: 2016-07-26
 description: Creating a network from the data with NetworkX. Aka, the not so fun step.
 ---
 
+Part of project: [UIUC Affiliation Network](http://data-slinky.com/project/2_UIUC_affiliation_network/)
+
 In the [previous post]({% post_url 2016-07-22-uiuc-network-p1 %}), we scraped the data from 
 the web. If you look in the source code, I've included a little snippet on how to get the
 data in a nested dictionary to make it easy to dump to json. Here, I will discuss a much 

@@ -5,6 +5,8 @@ date: 2016-07-22
 description: Scraping UIUC data from the web using BeautifulSoup (who comes up with these names?).
 ---
 
+Part of project: [UIUC Affiliation Network](http://data-slinky.com/project/2_UIUC_affiliation_network/)
+
 # Lets create a UIUC network visualization!
 
 One of the benefits of being a student at a public university is that university-related
