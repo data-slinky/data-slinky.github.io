@@ -3,6 +3,9 @@ layout: page
 title: About
 permalink: /about/
 ---
+<div class="col one left">
+<img src="/img/profile.jpg" width="200">
+</div>
 
 I'm a PhD student at [UIUC](http://illinois.edu/) and an aspiring 
 [data scientist](http://i.giphy.com/ize2r20ICQONq.gif). My interests are in data mining, 
