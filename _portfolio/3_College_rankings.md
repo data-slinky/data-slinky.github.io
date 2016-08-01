@@ -1,8 +1,8 @@
 ---
 layout: post
 title: College Rankings
-description: Machine Learning + Visuals
-img: /img/Times_Top20.png
+description: Visualizations + ML Analysis
+img: /img/BumpChartsApp.png
 ---
 
 __Note__: _This project is still on-going so check back frequently for more updates!_
@@ -27,6 +27,8 @@ All code for the project is in this [repository](https://github.com/jknguye2/col
 # Visualizations
 
 1. [Bump charts]({% post_url 2016-07-31-bump_charts %})
+1. [Web app of bump charts]({% post_url 2016-08-01-bump_charts_app %}) & 
+[Link to app](https://data-slinky.shinyapps.io/BumpCharts/)
 
 
 # Analyses
