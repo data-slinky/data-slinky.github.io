@@ -5,7 +5,7 @@ description: Interactive network viz of UIUC employees
 img: /img/uiuc_net.png
 ---
 
-Check out the visualization [here](https://jknguye2.github.io/UIUC_network/).
+Check out the visualization [here](https://data-slinky.github.io/UIUC_network/).
 
 # Motivation
 
@@ -17,7 +17,7 @@ useful (and fun) thing to do.
 
 # How I did it
 
-You can find the code [here](https://github.com/jknguye2/UIUC_network). A tutorial of the 
+You can find the code [here](https://github.com/data-slinky/UIUC_network). A tutorial of the 
 process is given in a series of posts:
 
 1. [Scraping the data]({% post_url 2016-07-22-uiuc-network-p1 %})
