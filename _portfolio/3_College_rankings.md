@@ -22,8 +22,13 @@ The data is from [Kaggle](https://www.kaggle.com/mylesoneill/world-university-ra
 It includes world college rankings from three organizations in addition to educational 
 attainment and expenditures for countries. You can gather more details from the link.
 
-All code for the project is in this [repository(https://github.com/jknguye2/college_rankings).
+All code for the project is in this [repository](https://github.com/jknguye2/college_rankings).
 
-# Analysis
+# Visualizations
+
+1. [Bump charts]({% post_url 2016-07-31-college_rankings %})
+
+
+# Analyses
 
 To be added...
