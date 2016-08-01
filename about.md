@@ -14,7 +14,7 @@ analytics and visualization.
 I originally created data-slinky to highlight some projects I've done. Since all the cool 
 kids have blogs these days, I figured why not. data-slinky is a data science portfolio plus 
 a collection of tutorials and thoughts. All datasets and code are either uploaded to
-[Github](https://github.com/jknguye2) or available publicly unless it's work-related or
+[Github](https://github.com/data-slinky) or available publicly unless it's work-related or
 research in-progress (hey, I gotta eat too).
 
 This website was built using [Jekyll](http://jekyllrb.com) with the
@@ -24,7 +24,7 @@ everything is made with &#9829; + &#9749;.
 
 <span class="contacticon center">
 	<a href="mailto:mailto:&#106;&#107;&#110;&#103;&#117;&#121;&#101;&#050;&#064;&#105;&#108;&#108;&#105;&#110;&#111;&#105;&#115;&#046;&#101;&#100;&#117;"><i class="fa fa-envelope-square"></i></a>
-	<a href="https://github.com/jknguye2" target="_blank"><i class="fa fa-github-square"></i></a>
+	<a href="https://github.com/data-slinky" target="_blank"><i class="fa fa-github-square"></i></a>
 	<a href="https://www.linkedin.com/in/john-nguyen-0235a012" target="_blank"><i class="fa fa-linkedin-square"></i></a>
 </span>
 
