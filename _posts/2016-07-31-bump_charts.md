@@ -25,7 +25,7 @@ before trying any fancy stuff. The end product is this.
  <div class="col caption">Click image to view full-size. </div>
  </figure>
 
-I'll walkthrough the code and then provide a brief discussion how on future developments.
+I'll walkthrough the code and then provide a brief discussion future extension.
 
 # Making a bump chart in R
 
