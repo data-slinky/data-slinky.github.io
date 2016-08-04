@@ -7,6 +7,14 @@ description: Interactive visualization with d3.js (oh, so pretty!)
 
 Part of project: [UIUC Affiliation Network](http://data-slinky.com/project/2_UIUC_affiliation_network/)
 
+<p align="center">
+ <a href="https://jknguye2.github.io/UIUC_network/" target="_blank">
+  <img style="text-align:center" src="/img/uiuc_net.png" alt="Affiliation Net" style="max-width:50%;"/>
+</a>
+ <div class="col caption">Click image to go to the visualization. </div>
+</p>
+
+
 We can now visualize the network! In case you'd missed it, check out 
 [post 1]({% post_url 2016-07-22-uiuc-network-p1 %}) for obtaining the data and 
 [post 2]({% post_url 2016-07-25-uiuc-network-p2 %}) on setting up the network. Before we 
@@ -126,5 +134,3 @@ for department and one for people) as well as different size. Next, we want to h
 the edges of the node when we mouse over it. To do so, we have a function which returns 
 the color of the edge based on whether it is connected to another node. The rest of the 
 code is the standard settings for how the force layout to be drawn.
-
-Check out the visualization [here](https://jknguye2.github.io/UIUC_network/).
