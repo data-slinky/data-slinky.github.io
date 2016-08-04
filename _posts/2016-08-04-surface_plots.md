@@ -7,9 +7,6 @@ description: It's 3D this time and not d3. Hah.
 
 Part of project: [Slinky Projects](http://data-slinky.com/project/4_Slinky_projects/)
 
-At one point in my life, I was a huge fan of Matlab for visualization. Then, I saw the 
-light at the end of the tunnel and repented for the errors of my ways. Okay, too dramatic. 
-
 A friend of mine in economics gave me some Matlab code to make 3d plots for one of his 
 paper and I instantly thought that Matlab, as a language, was horrendous. Note, I still 
 greatly appreciate it as a software package since I relied heavily on it for my undergrad 
