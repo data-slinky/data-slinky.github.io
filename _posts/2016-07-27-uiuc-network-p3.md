@@ -76,7 +76,7 @@ var force = d3.layout.force()
     .size([width, height]);
 ```
 
-The variable `color` is essentially an ordinal scale with a range of ten categorical 
+The variable _color_ is essentially an ordinal scale with a range of ten categorical 
 colors. The _width_, _height_ and _svg_ is for the size of our visualization (_svg_ is
 essentially an xml language to create graphics). The final bit is to create a force layout
 object with some specific properties. _gravity_ is the pull of the nodes to a fixed point,

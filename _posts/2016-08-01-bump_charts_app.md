@@ -8,12 +8,11 @@ description: A web app using R-shiny. Select your own dataset and set your own p
 Part of project: [College Rankings](http://data-slinky.com/project/3_College_rankings/)
 
 <figure>
- <a href="/img/BumpChartsApp.png" data-lightbox="appfoundry_image_set" data-title="College 
- Rankings Web App">
+ <a href="https://data-slinky.shinyapps.io/BumpCharts/" target="_blank">
   <img src="/img/BumpChartsApp.png" alt="Bump chart" style="max-width:100%;"/>
 </a>
- <div class="col caption">Click image to view full-size. </div>
- </figure>
+ <div class="col caption">Click image to go to the application. </div>
+</figure>
 
 In my previous [post]({% post_url 2016-07-31-bump_charts %}), I talked about how to create 
 a simple bump chart using R with ggplot. I was looking at how to best visualize different 
