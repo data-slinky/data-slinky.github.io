@@ -8,7 +8,7 @@ description: Interactive visualization with d3.js (oh, so pretty!)
 Part of project: [UIUC Affiliation Network](http://data-slinky.com/project/2_UIUC_affiliation_network/)
 
 <p align="center">
- <a href="https://jknguye2.github.io/UIUC_network/" target="_blank">
+ <a href="https://data-slinky.github.io/UIUC_network/" target="_blank">
   <img style="text-align:center" src="/img/uiuc_net.png" alt="Affiliation Net" style="max-width:50%;"/>
 </a>
  <div class="col caption">Click image to go to the visualization. </div>
