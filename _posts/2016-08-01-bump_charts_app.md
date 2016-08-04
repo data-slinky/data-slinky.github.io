@@ -29,7 +29,7 @@ of two different files, __ui.R__ and __server.R__. Lets discuss the code in brie
 # ui.R
 
 The interface of the app is created with this script. I like the option of using your own 
-css file with _includeCSS_. You can get some nice bootstrap themes from 
+css file with `includeCSS`. You can get some nice bootstrap themes from 
 [bootswatch](https://bootswatch.com/).
 
 ```R
@@ -59,16 +59,16 @@ shinyUI(fluidPage(
 ```
 
 In this UI, I am using a grid format in which I want the plot output to be in its own row. 
-The options that the users select are below that in two separate columns. The _selectInput_ 
+The options that the users select are below that in two separate columns. The `selectInput` 
 statement creates a dropdown listing the different datasets the user can select. The 
-_sliderInput_ function creates a slider to select the number of schools the user wants to 
+`sliderInput` function creates a slider to select the number of schools the user wants to 
 display. These parameters are passed as variables to _server.R_.
 
 # server.R
 
 This script does all of the computations to pass to the UI. I essentially use the same 
 function from the bump plot script except I pass the parameter for the dataset to be 
-_input$data_ and the parameter for the number of colleges to be _input$var1_. It is necessary 
-to use _input$var1_ to specify the y-axis and the number of breaks since the some datasets 
+`input$data` and the parameter for the number of colleges to be `input$var1`. It is necessary 
+to use `input$var1` to specify the y-axis and the number of breaks since the some datasets 
 such as Shanghai does not have 2016 data. Everything else is the same as the previous script 
 except for some stylistic changes.

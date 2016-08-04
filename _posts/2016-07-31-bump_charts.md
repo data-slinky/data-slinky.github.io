@@ -45,12 +45,12 @@ timesfinalYear <- timesData_top[which(timesData_top$year == 2016),]
 timesfirstAppearance <- timesData_top[!duplicated(timesData_top$university_name) & timesData_top$year != 2016,]
 ```
 
-We will use _ggplot2_ for the plotting, _ggrepel_ to create non-overlapping labels, 
-_scales_ to create even axes, and _RColorBrewer_ to define a custom color palette.
+We will use `ggplot2` for the plotting, `ggrepel` to create non-overlapping labels, 
+`scales` to create even axes, and `RColorBrewer` to define a custom color palette.
 
 I first load the data and cast the ranks as a numeric instead of a factor data type in 
 order to better process later. I subset the top 20 colleges for every year and then use
-_abbreviate()_ to abbreviate the names since some were way too long (I later decided to 
+`abbreviate` to abbreviate the names since some were way too long (I later decided to 
 change the names manually since the abbreviations made it difficult to decipher the 
 school). For labeling, I want to label when the school first appears in the top 20 and 
 the most recent year. The reason for the former is that some schools like Northwestern 
@@ -95,17 +95,17 @@ g1
 I love ggplot in that defining layer elements are very straightforward. I first create the
 plot instance in which the x-axis is year and the y-axis is world ranking. I want to have 
 points for each of the schools in the rankings as well as lines which are colored based on
-the school name.  I used _geom_label_repel_ from the _ggrepel_ package to create 
+the school name.  I used `geom_label_repel` from the `ggrepel` package to create 
 non-overlapping labels for the first appearance. Some schools are tied so you would get 
-overlaps with _geom_label_. I used _geom_label_ for the ending points since there are no
-ties for 2016 with left-alignment with _hjust=0_.
+overlaps with `geom_label`. I used `geom_label` for the ending points since there are no
+ties for 2016 with left-alignment with `hjust=0`.
 
 I reversed the y-axis since it would make more sense with the top schools at the top of 
 the chart. I also scaled the x-axis by a bit to fit the 2016 labels in the graph. There are 
 other ways of fitting the labels such as setting off chart clipping but this results in very 
-slow rendering. Both the y-axis and x-axis was break with _pretty_breaks()_ which creates 
+slow rendering. Both the y-axis and x-axis was break with `pretty_breaks` which creates 
 evenly spaced bins. The rest of the code is just changing some of the aesthetics of the 
-charts including using _scale_colour_manual_ to load my custom palette.
+charts including using `scale_colour_manual` to load my custom palette.
 
 # Combining different rankings?
 

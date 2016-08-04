@@ -57,18 +57,19 @@ jobsat_plot <- wireframe(z1 ~ x*y, data=some_economics_data,
           screen = list(z = -60, x = -60)
 )
 ```
-Surface plots with lattice can be done with the _wireframe_ function. The first line after 
+
+Surface plots with lattice can be done with the `wireframe` function. The first line after 
 loading the package is to remove the border around the plot. Everything else is pretty 
-explanatory. The option _drape_ is a boolean to drape the plot or not, the _colorkey_ is 
+explanatory. The option `drape` is a boolean to drape the plot or not, the `colorkey` is 
 another boolean which determines if you want a key showing the density on the side. 
-_scales_ is used to create the ticks. Note, if _arrows_ is set to true, then you have no 
+`scales` is used to create the ticks. Note, if `arrows` is set to true, then you have no 
 ticks. I like how we can easily determine the margin between the axis label with a 
-_distance option_. You can play around with the aesthetics with _light.source_ and 
-_col.region_. I decided to go with the typical rainbow color to better show the depths. 
+`distance option`. You can play around with the aesthetics with `light.source` and 
+`col.region`. I decided to go with the typical rainbow color to better show the depths. 
 You can pass a list of colors you want if you need to customize.
 
-One final note is that I decided to use the _grid.arrange_ function from the package 
-_gridExtra_ to print side-by-side plot. I think you go with the usual pars option to do 
+One final note is that I decided to use the `grid.arrange` function from the package 
+`gridExtra` to print side-by-side plot. I think you go with the usual pars option to do 
 the same thing but this one-liner is much neater.
 
 ```R

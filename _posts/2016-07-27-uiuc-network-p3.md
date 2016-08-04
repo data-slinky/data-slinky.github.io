@@ -76,11 +76,11 @@ var force = d3.layout.force()
     .size([width, height]);
 ```
 
-The variable _color_ is essentially an ordinal scale with a range of ten categorical 
-colors. The _width_, _height_ and _svg_ is for the size of our visualization (_svg_ is
+The variable `color` is essentially an ordinal scale with a range of ten categorical 
+colors. The `width`, `height` and `svg` is for the size of our visualization (_svg_ is
 essentially an xml language to create graphics). The final bit is to create a force layout
-object with some specific properties. _gravity_ is the pull of the nodes to a fixed point,
-_charge_ determines how much the nodes repel each other, _linkDistance_ determines the 
+object with some specific properties. `gravity` is the pull of the nodes to a fixed point,
+`charge` determines how much the nodes repel each other, `linkDistance` determines the 
 distance between connected nodes. I suggest playing around with the variables to get a 
 better sense of what its doing.
 
@@ -121,7 +121,7 @@ the data. There are two parts which we should discuss in detail.
   });
 ```
 
-The variable _circle_ will draw our node which we want to be in two different colors (one
+The variable `circle` will draw our node which we want to be in two different colors (one
 for department and one for people) as well as different size. Next, we want to highlight 
 the edges of the node when we mouse over it. To do so, we have a function which returns 
 the color of the edge based on whether it is connected to another node. The rest of the 
