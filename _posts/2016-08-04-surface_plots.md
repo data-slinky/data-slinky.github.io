@@ -34,7 +34,7 @@ extension of R's base graphics capabilities. I decided to go with lattice since 
 used it before.
 
 The dataset is some random economics data which I have no clue about. I just know that 
-there is an x,y, z1, and z2 axis. After reading in the data, we can plot with the 
+there is an x, y, z1, and z2 axis. After reading in the data, we can plot with the 
 following snippet.
 
 ```R

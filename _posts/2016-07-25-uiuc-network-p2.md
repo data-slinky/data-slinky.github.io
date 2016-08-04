@@ -80,6 +80,6 @@ Now you just need to dump the network as a json and viola, you're done!
 ```python
 d = json_graph.node_link_data(G)
 json.dump(d, open('uiuc.json','w'))
+```
 
 In the next post, we will visualize the network with d3.js.
-```
