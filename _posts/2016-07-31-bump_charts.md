@@ -3,6 +3,9 @@ layout: post
 title: "Bump charts"
 date: 2016-07-31
 description: I like bump charts. Here's a simple but nice looking one using R + ggplot.
+tags:
+- Visualization
+- R
 ---
 
 Part of project: [College Rankings](http://data-slinky.com/project/3_College_rankings/)

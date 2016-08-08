@@ -27,7 +27,7 @@ All code for the project is in this [repository](https://github.com/jknguye2/col
 # Visualizations
 
 1. [Bump charts]({% post_url 2016-07-31-bump_charts %})
-2. [Web app of bump charts]({% post_url 2016-08-01-bump_charts_app %}) & 
+2. [Web app of bump charts]({% post_url 2016-08-01-bump_charts_app %}) + 
 [Link to app](https://data-slinky.shinyapps.io/BumpCharts/)
 
 

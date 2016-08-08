@@ -3,6 +3,7 @@ layout: post
 title: UIUC interactive network (p2)
 date: 2016-07-26
 description: Creating a network from the data with NetworkX. Aka, the not so fun step.
+tags: [python, network]
 ---
 
 Part of project: [UIUC Affiliation Network](http://data-slinky.com/project/2_UIUC_affiliation_network/)

@@ -3,6 +3,7 @@ layout: post
 title: UIUC interactive network (p1)
 date: 2016-07-22
 description: Scraping UIUC data from the web using BeautifulSoup (who comes up with these names?).
+tags: [Data_acquisition, python]
 ---
 
 Part of project: [UIUC Affiliation Network](http://data-slinky.com/project/2_UIUC_affiliation_network/)

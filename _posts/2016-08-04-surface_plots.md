@@ -3,6 +3,7 @@ layout: post
 title: "Surface plots... in R!"
 date: 2016-08-04
 description: It's 3D this time and not d3. Hah.
+tags: [3D_plotting, R, Visualization]
 ---
 
 Part of project: [Slinky Projects](http://data-slinky.com/project/4_Slinky_projects/)

@@ -3,6 +3,7 @@ layout: post
 title: "Integrated bump charts web app"
 date: 2016-08-01
 description: A web app using R-shiny. Select your own dataset and set your own parameter!
+tags: [Web_app, R, Visualization]
 ---
 
 Part of project: [College Rankings](http://data-slinky.com/project/3_College_rankings/)

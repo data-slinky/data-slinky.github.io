@@ -29,6 +29,7 @@ everything is made with &#9829; + &#9749;.
 	<a href="mailto:mailto:&#106;&#107;&#110;&#103;&#117;&#121;&#101;&#050;&#064;&#105;&#108;&#108;&#105;&#110;&#111;&#105;&#115;&#046;&#101;&#100;&#117;"><i class="fa fa-envelope-square"></i></a>
 	<a href="https://github.com/data-slinky" target="_blank"><i class="fa fa-github-square"></i></a>
 	<a href="https://www.linkedin.com/in/john-nguyen-0235a012" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+	<a href="https://www.facebook.com/john.k.nguyen" target="_blank"><i class="fa fa-facebook-square"></i></a>
 </span>
 
 <div class="col three caption">

@@ -1,0 +1,16 @@
+- slug: R
+  name: R
+- slug: Visualization
+  name: Visualization
+- slug: Web_app
+  name: Web app
+- slug: 3D_plotting
+  name: 3D plotting
+- slug: python
+  name: Python
+- slug: Data_acquisition
+  name: Data acquisition
+- slug: network
+  name: network
+- slug: d3
+  name: d3.js

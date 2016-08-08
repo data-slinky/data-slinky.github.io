@@ -56,7 +56,12 @@ body {
     -webkit-text-size-adjust: 100%;
 }
 
-
+/**
+ * Font Awesome
+ */
+.fa {
+    color: $blue;
+}
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm

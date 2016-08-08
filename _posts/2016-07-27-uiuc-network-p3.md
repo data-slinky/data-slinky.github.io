@@ -3,6 +3,7 @@ layout: post
 title: UIUC interactive network (p3)
 date: 2016-07-27
 description: Interactive visualization with d3.js (oh, so pretty!)
+tags: [d3, network, Visualization]
 ---
 
 Part of project: [UIUC Affiliation Network](http://data-slinky.com/project/2_UIUC_affiliation_network/)
