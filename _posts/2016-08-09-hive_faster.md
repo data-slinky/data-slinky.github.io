@@ -8,9 +8,9 @@ tags: [big_data, Hive]
 
 Part of project: [Slinky Projects](http://data-slinky.com/project/4_Slinky_projects/)
 
-At work I had to do a simply inner join with two rather large Hive tables (~4.8m and 
+At work I had to do an inner join of two rather large Hive tables (~4.8m and 
 ~2.1b rows) which, even in the MapReduce paradigm, took forever since the computational 
-complexity of Cartesian product is usually $$O(n^2)$$. I did a lot of research on ways to 
+complexity of Cartesian product is usually _O(n^2)_. I did a lot of research on ways to 
 speed up Hive and here's a summary of what I found.
 
 # 1. Enable Tez
