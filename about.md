@@ -30,6 +30,7 @@ everything is made with &#9829; + &#9749;.
 	<a href="https://github.com/data-slinky" target="_blank"><i class="fa fa-github-square"></i></a>
 	<a href="https://www.linkedin.com/in/john-nguyen-0235a012" target="_blank"><i class="fa fa-linkedin-square"></i></a>
 	<a href="https://www.facebook.com/john.k.nguyen" target="_blank"><i class="fa fa-facebook-square"></i></a>
+	<a href="https://twitter.com/dataslinky" target="_blank"><i class="fa fa-twitter-square fa"></i></a>
 </span>
 
 <div class="col three caption">
