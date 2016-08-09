@@ -23,7 +23,7 @@ SET hive.execution.engine=tez;
 
 # 2. Use ORCfile
 
-ORCfile is a big data format for Hadoop and Hive. It takes less space and more efficiently than the old RCfile format in reading, processing and writing data. I haven't read too much on what the "O" (stands for optimized) means but I will take it because I do see speed improvements. You can convert your tables into ORC in Hive as follows:
+ORCfile is a big data format for Hadoop and Hive. It takes less space and is more efficient than the old RCfile format in reading, processing and writing data. I haven't read too much on what the "O" (stands for optimized) means but I will take it at face value because I do see speed improvements. You can convert your tables into ORC in Hive as follows:
 
 ```Hive
 CREATE TABLE TABLEA_ORC (personID int, personName string, personAge int, Address string)
