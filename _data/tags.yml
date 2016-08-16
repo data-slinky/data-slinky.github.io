@@ -18,3 +18,7 @@
   name: Hive
 - slug: big_data
   name: Big data
+- slug: clustering
+  name: Clustering
+- slug: machine_learning
+  name: Machine Learning

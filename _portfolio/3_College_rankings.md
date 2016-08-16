@@ -33,4 +33,4 @@ All code for the project is in this [repository](https://github.com/jknguye2/col
 
 # Analyses
 
-To be added...
+1. [What do the top universities have in common?]({% post_url 2016-08-15-college_clusters %})
