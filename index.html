@@ -3,13 +3,35 @@ layout: default
 ---
 
 <div class="header-bar">
-  <h1>data-slinky</h1>
+  <h1>data-slinky<img id="home" src="/img/slinky.png" height="80px" width="80px"/></h1>
   <h5>{ data-driven projects + visuals }</h5>
-  <br/>
   <hr>
-  <br/>
+	<!-- Pagination links -->
+	<div class="pagination">
+  	{% if paginator.previous_page %}
+  	<span style="display:inline-block; width:250px;">
+   	 <a href="{{ paginator.previous_page_path }}" class="previous">
+    	<i class="fa fa-arrow-left" aria-hidden="true"></i>
+		</a>
+	</span>
+	  {% else %}
+	<span class="previous" style="display:inline-block; width:250px;">
+	    <i class="fa fa-arrow-left" aria-hidden="true"></i>
+	</span>
+	  {% endif %}
+	  {% if paginator.next_page %}
+    <span style="display:inline-block; width:250px;">
+	    <a href="{{ paginator.next_page_path }}" class="next"">
+	    <i class="fa fa-arrow-right" aria-hidden="true"></i>
+    	</a>
+    </span>
+	  {% else %}
+	<span class="next" style="display:inline-block; width:250px;">
+	    <i class="fa fa-arrow-right" aria-hidden="true"></i>
+	</span>
+	  {% endif %}
+	</div>
 </div>
-
 
 <ul class="post-list">
     {% for post in paginator.posts %}
@@ -22,3 +44,4 @@ layout: default
       </li>
     {% endfor %}
 </ul>
+
