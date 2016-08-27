@@ -6,21 +6,15 @@ permalink: /about/
 
 I'm a PhD student at [UIUC](http://illinois.edu/) and an aspiring 
 [data scientist](http://i.giphy.com/ize2r20ICQONq.gif). My interests are in data mining, 
-analytics and visualization.
+computer vision and visualization. I am also an occasional developer when I have too much
+free time.
 <br><br>
 
 ## data-slinky
 <br>
-I originally created data-slinky to highlight some projects I've done. Since all the cool 
-kids have blogs these days, I figured why not. data-slinky is a data science portfolio plus 
-a collection of tutorials and thoughts. All datasets and code are either uploaded to
-[Github](https://github.com/data-slinky) or available publicly unless it's work-related or
-research in-progress (hey, I gotta eat too).
-
-This website was built using [Jekyll](http://jekyllrb.com) with the
-[folio](https://github.com/bogoli/-folio) theme plus some personalize tweaks. Of course, 
-everything is made with &#9829; + &#9749;.
-
+I created data-slinky as a data science portfolio plus a collection of tutorials and references for myself and others. I'm a big proponent of
+open-source and reproducable results. As such, all datasets and code are either uploaded to [Github](https://github.com/data-slinky) or
+available publicly unless it's work-related (sorry, I gotta eat too). Of course, everything is made with &#9829; + &#9749;.
 
 <span class="contacticon center">
 	<a href="mailto:mailto:&#106;&#107;&#110;&#103;&#117;&#121;&#101;&#050;&#064;&#105;&#108;&#108;&#105;&#110;&#111;&#105;&#115;&#046;&#101;&#100;&#117;"><i class="fa fa-envelope-square"></i></a>

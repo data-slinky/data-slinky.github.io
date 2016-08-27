@@ -33,9 +33,9 @@ $purple: #B509AC;
 $dark : #272727;
 
 
-$grey-color-dark: #333;   /* footer */
+$grey-color-dark: #272727;   /* footer */
 $grey-color-light: #ddd;  /* navigation bar border */
-$text-color:     #666;
+$text-color:     #fff;
 
 /* Set theme color *************************/
 $theme-color:   $blue;
@@ -52,7 +52,15 @@ body {
     line-height: $base-line-height;
     font-weight: 100;
     color: $text-color;
-    background-color: $background-color;
+	background: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+     ), url("https://raw.githubusercontent.com/data-slinky/UIUC_network/gh-pages/Visualization.png") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    /* background-color: $background-color; */
     -webkit-text-size-adjust: 100%;
 }
 
@@ -137,7 +145,7 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $text-color;
+    color: $theme-color;
     text-decoration: none;
     /*
     &:visited {
@@ -145,7 +153,7 @@ a {
     }
     */
     &:hover {
-        color: $theme-color;
+        color: $text-color;
         text-decoration: none;
     }
 }
