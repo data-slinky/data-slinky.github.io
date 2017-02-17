@@ -35,7 +35,7 @@ $dark : #272727;
 
 $grey-color-dark: #272727;   /* footer */
 $grey-color-light: #ddd;  /* navigation bar border */
-$text-color:     #fff;
+$text-color:     #d3d3d3;
 
 /* Set theme color *************************/
 $theme-color:   $blue;
@@ -52,10 +52,7 @@ body {
     line-height: $base-line-height;
     font-weight: 100;
     color: $text-color;
-	background: linear-gradient(
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.6)
-     ), url("https://raw.githubusercontent.com/data-slinky/data-slinky.github.io/master/background.jpg") no-repeat center center fixed; 
+	background: #FFFFFF 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
